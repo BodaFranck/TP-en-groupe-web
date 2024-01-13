@@ -1,0 +1,58 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header {
+    background: rgb(188, 239, 187);
+    width: 100vw;
+    height: 9vh;
+    display: flex;
+    text-decoration: none;
+}
+p {
+    color: rgb(82, 200, 215);
+}
+
+footer{
+    background: rgb(188, 239, 187);
+    width: 100vw;
+    height: 5vh;
+    text-align: center;
+}
+.his  {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+}
+.photohis {
+    height: 150px;
+    width: 150px;
+    margin: 50px;
+    background: red;
+}
+.taro {
+    height: 30vh;
+    width: 80vw;
+    background: rgb(209, 229, 232, 0.605);
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    background-image:url(../Image/salle2.jpg) ;
+    background-attachment: fixed;
+}
+.phmenu {
+    height: 28vh;
+    width: 28vw;
+    background: red;
+    margin: 50px;
+    border-radius: 20px;
+}
+.exmenu {
+    height: 15vh;
+    width: 40vw;
+    margin: 20px;
+    background: yellow;
+}

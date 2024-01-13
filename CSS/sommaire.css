@@ -1,0 +1,119 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 100vw;
+    height: 9vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+header nav ul{
+    list-style-type: none;
+    display: flex;
+}
+header nav ul a{
+    color:rgb(45, 204, 79);
+    margin: 20px;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff900;
+}
+a:active {
+    color:red;
+}
+section{
+    background-image: url(../Image/salle1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+}
+.pre {
+    border-radius: 10px;
+    height: 20vh;
+    width: 95vw;
+    margin: 50px;
+    padding: 10px;
+    background: #fff900;
+}
+.loader{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.lettre{
+    color: #484948;
+    font-style: 80px;
+    font-size: 50px;
+    letter-spacing: 10px;
+    animation: flash 1.2s linear infinite;
+}
+
+@media screen and( max-width: 700px){
+    .loader{
+        background-position: center;
+        display: block;
+
+    }
+}
+
+@keyframes flash{
+    0%{
+        color: #fff900;
+        text-shadow: 0 0 7px #fff900;
+    }
+    90%{
+        color: #484848;
+        text-shadow: none;
+    }
+    100%{
+        color: #fff900;
+        text-shadow: 0 0 7px #fff900;
+    }
+}
+
+.lettre:nth-child(1){
+    animation-delay: 0.1s;
+}
+.lettre:nth-child(2){
+    animation-delay: 0.2s;
+}
+.lettre:nth-child(3){
+    animation-delay: 0.3s;
+}
+.lettre:nth-child(4){
+    animation-delay: 0.4s;
+}
+.lettre:nth-child(5){
+    animation-delay: 0.5s;
+}
+.lettre:nth-child(6){
+    animation-delay: 0.6s;
+}
+.lettre:nth-child(7){
+    animation-delay: 0.7s;
+}
+.lettre:nth-child(8){
+    animation-delay: 0.8s;
+}
+.lettre:nth-child(9){
+    animation-delay: 0.9s;
+}
+.lettre:nth-child(10){
+    animation-delay: 1s;
+}
+
+.fondu-out{
+    opacity: 0;
+    transition: opacity 0.4s ease-out;
+}
+
